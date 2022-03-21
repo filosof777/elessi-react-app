@@ -1,0 +1,43 @@
+.Hero {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  div {
+    width: 800px;
+    text-align: center;
+
+    h5 {
+      font-size: 16px;
+      font-weight: 800;
+      color: #666;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+      letter-spacing: 12px;
+    }
+
+    h2 {
+      font-size: 55px;
+      line-height: 55px;
+      font-weight: 800;
+      text-transform: capitalize;
+      margin-bottom: 30px;
+    }
+
+    button {
+      padding: 12px 40px;
+      font-size: 12px;
+      letter-spacing: 4px;
+      font-weight: 600;
+      background-color: #333;
+      color: #fff;
+      text-transform: uppercase;
+      transition: opacity 0.3s ease;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+}
